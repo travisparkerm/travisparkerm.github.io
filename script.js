@@ -34,7 +34,7 @@ rollButton.addEventListener('click', function() {
             
                 interval = setInterval(function(){
                     diceResult.textContent  = rolling();
-                }, 150);
+                }, 125);
             }, 550);
 
             
@@ -63,7 +63,7 @@ rollButton.addEventListener('click', function() {
         congratsMessage.style.display = "none"; // Block congrats message
     }
 
-    }, 1000);
+    }, 600);
 });
 
 
